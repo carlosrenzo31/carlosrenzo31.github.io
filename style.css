@@ -1,0 +1,45 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+  background-image: url(keyboard.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Start {
+	display: flex;
+	align-items: center;
+  	flex-flow: wrap column;
+  	
+}
+
+
+.title {
+	color: white;
+	font-size: 3em;
+	background-color: rgba(61, 59, 55, 0.65);
+	border: 2px solid skyblue;
+	margin: 10px;
+	transition: all 1s;
+	font-weight: bold;
+}
+.title:hover {
+	transform: scale(1.1);
+}
+
+.btn-primary {
+	margin: 10px;
+	transition: all 1s;
+}
+
+.btn.primary:hover {
+	transform: scale(1.1);
+}
